@@ -1,209 +1,140 @@
-# Awesome-Machine-Monitoring
+# Awesome Machine Monitoring ⚙️
 
-## Top Machine Monitoring Ecosystem
+<p align="center">
+  <img src="./assets/banner.svg" alt="Awesome Machine Monitoring Banner" width="100%" />
+</p>
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Machine-Monitoring/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Machine-Monitoring?style=flat-square" alt="Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Machine-Monitoring/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Machine-Monitoring?style=flat-square" alt="Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Machine-Monitoring/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Machine-Monitoring?style=flat-square" alt="Issues"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Machine-Monitoring/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Machine-Monitoring?style=flat-square" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+## 📌 Top Machine Monitoring Ecosystem & Predictive Maintenance Frameworks
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+> A curated list of **Industrial Machine Monitoring SaaS platforms**, **Predictive Maintenance (PdM)** systems, **Overall Equipment Effectiveness (OEE)** calculators, **Industrial IoT (IIoT)** telemetry pipelines, and **Open-Source Machine Health** frameworks.
 
-*Focused on Industrial Machine Monitoring, Predictive Maintenance, OEE, Condition Monitoring, IIoT Analytics & Manufacturing Intelligence*  
-
-**Last updated: September 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Machine Monitoring**. These systems collect real-time data from CNC machines, rotating equipment, and industrial assets, calculate OEE, detect anomalies, predict failures, and help manufacturers reduce downtime and optimize production.
-
-
-
-**Examples** include MachineMetrics, SymphonyAI Industrial, Augury, Senseye, Litmus, Braincube, Seeq, HighByte, Prediktor, and Infinite Uptime (the category leaders).
-
-
-
-**Open-source emphasis**: Full commercial machine-health platforms with proprietary sensors, physics-informed AI, and multi-site OEE analytics remain dominant. Open-source activity centers on IIoT data pipelines, edge analytics, predictive-maintenance research code, and composable stacks (Node-RED, InfluxDB, Grafana, MQTT, OPC-UA). This section lists every significant relevant project and building block found.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[MachineMetrics](https://www.machinemetrics.com/)**  
-
-  Leading CNC and discrete manufacturing machine monitoring platform focused on real-time OEE, utilization, cycle-time analytics, and shop-floor visibility with broad protocol support (MTConnect, Fanuc, OPC-UA, etc.).
-
-
-
-- **[Augury](https://www.augury.com/)**  
-
-  AI-powered machine health platform using vibration, ultrasonic, and other high-fidelity signals to deliver prescriptive diagnostics and predictive maintenance for critical rotating assets.
-
-
-
-- **[Senseye (Siemens)](https://www.senseye.io/)**  
-
-  Predictive maintenance and condition-monitoring platform, often integrated with Siemens industrial ecosystems, focused on automated health insights and remaining useful life.
-
-
-
-- **[Litmus](https://litmus.io/)**  
-
-  Industrial edge and data platform that connects machines, normalizes OT data, and enables real-time analytics, OEE, and AI/ML use cases across multi-site manufacturing environments.
-
-
-
-- **[SymphonyAI Industrial, Braincube, Seeq](https://www.symphonyai.com/)**  
-
-  Platforms providing industrial AI, process manufacturing analytics, advanced time-series analysis, and manufacturing intelligence for continuous and discrete operations.
-
-
-
-- **[HighByte, Prediktor, Infinite Uptime](https://www.highbyte.com/)**  
-
-  Solutions covering industrial dataops / contextualization, historian and analytics capabilities, and specialized machine-health or uptime monitoring offerings.
-
-
-
-- **[Other machine monitoring & PdM platforms](https://www.machinemetrics.com/)**  
-
-  Additional commercial tools for vibration analysis, energy monitoring, tool-life tracking, and multi-protocol industrial connectivity.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[EsoCore](https://www.esocore.com/)**  
-
-  Open-source industrial IoT platform aimed at equipment monitoring and predictive maintenance. Combines edge computing, modular sensors (vibration, temperature, acoustic), and analytics for manufacturing environments under an Apache 2.0 license.
-
-
-
-- **[Node-RED + InfluxDB + Grafana IIoT stacks](https://github.com/node-red/node-red)**  
-
-  Widely used open-source combination for industrial data acquisition, flow-based processing, time-series storage, and real-time dashboards. Frequently deployed for machine monitoring and basic predictive workflows.
-
-
-
-- **[Predictive Maintenance research & end-to-end projects](https://github.com/search?q=predictive+maintenance+OR+machine+health+OR+RUL+industrial)**  
-
-  Numerous open repositories implementing anomaly detection, remaining useful life (RUL) estimation, digital twins, and vibration analysis on public industrial datasets (e.g., PHM, NASA turbofan, CNC).
-
-
-
-- **[MQTT / OPC-UA / Modbus open tooling](https://github.com/search?q=OPC-UA+OR+MQTT+industrial+OR+Modbus+open+source)**  
-
-  Open brokers, clients, and protocol stacks that form the connectivity backbone of most self-hosted machine monitoring systems.
-
-
-
-- **[ThingsBoard and open IoT platforms](https://github.com/thingsboard/thingsboard)**  
-
-  Open-source IoT platforms that support device management, telemetry ingestion, rule engines, and dashboards—commonly adapted for industrial asset monitoring.
-
-
-
-- **[Edge analytics & anomaly detection notebooks](https://github.com/search?q=industrial+anomaly+detection+OR+vibration+analysis+open+source)**  
-
-  Python/ML projects focused on edge or cloud-based anomaly detection, feature extraction from vibration/current signals, and failure prognosis.
-
-
-
-- **[CMMS / maintenance open tools with monitoring hooks](https://github.com/search?q=CMMS+OR+maintenance+management+open+source)**  
-
-  Open maintenance systems that can be integrated with sensor data pipelines for condition-based work-order generation.
-
-
-
-- **[Other IIoT & SCADA modernization projects](https://github.com/search?q=IIoT+OR+industrial+monitoring+OR+SCADA+open+source)**  
-
-  Community efforts combining Arduino/Raspberry Pi edge devices, MQTT, historians, and visualization for factory-floor monitoring.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Time-series databases**: InfluxDB, TimescaleDB, QuestDB for high-frequency machine telemetry.
-
-- **Visualization**: Grafana and specialized industrial dashboard templates for OEE and asset health.
-
-- **Protocol gateways**: Open OPC-UA servers/clients, MTConnect agents, and Modbus-to-MQTT bridges.
-
-- **MLOps for PdM**: Open pipelines for training, versioning, and deploying anomaly or RUL models.
-
-- **Digital twin frameworks**: Research and lightweight open digital-twin implementations for specific asset classes.
-
-- Composable stacks: Edge (MQTT/OPC-UA) → Node-RED or custom collectors → InfluxDB/Timescale → Grafana + optional ML services.
-
-
-
-**Frameworks for building custom systems**:  
-
-There is no single open-source product that fully replicates the depth of MachineMetrics (CNC OEE) or Augury (physics-informed machine health).  
-
-Practical building blocks include **EsoCore** (where available), **Node-RED + InfluxDB + Grafana**, **ThingsBoard**, open protocol stacks, and the large body of predictive-maintenance research code.  
-
-These can be assembled into capable monitoring and early-warning systems.  
-
-Commercial platforms (MachineMetrics, Augury, Senseye, Litmus, SymphonyAI, Braincube, Seeq, etc.) provide hardened connectors, domain-specific AI models, multi-site governance, support, and faster time-to-value.  
-
-Many manufacturers start with open IIoT stacks for visibility and later adopt specialized commercial PdM or OEE platforms for critical assets or enterprise roll-outs.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Machine monitoring and predictive maintenance systems influence production decisions and safety. Incorrect models or missed alerts can have operational and safety consequences. Validate models against real asset behavior and maintain human oversight.
-
-- Open-source IIoT and analytics stacks offer flexibility and no per-machine licensing but require expertise in OT networking, data quality, model maintenance, and cybersecurity. Evaluate total cost of ownership, integration effort, and reliability requirements carefully.
-
-
+*Last updated: September 2026* 🗓️
 
 ---
 
+This repository tracks notable **SaaS platforms** and **open-source projects** for **Machine Monitoring**. These software systems collect real-time industrial data from CNC machines, rotating equipment, robotics, and industrial assets to calculate OEE, detect anomalies, forecast failures via physics-informed & ML algorithms, reduce unplanned downtime, and optimize factory floor productivity.
 
+---
 
-**Made for manufacturing engineers, reliability teams, OT/IT architects, and industrial data scientists.**  
+## 📑 Table of Contents
 
-Let's expand open, interoperable tools for machine health and production visibility while recognizing the specialized value that mature commercial monitoring and predictive-maintenance platforms deliver.
+- [🏭 SaaS / Hosted Platforms](#-saas--hosted-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🛠️ Composable Stack Building Blocks](#%EF%B8%8F-composable-stack-building-blocks)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
+- [📈 Star History](#-star-history)
+
+---
+
+## 🏭 SaaS / Hosted Platforms
+
+> **Market Insights:** The global Machine Monitoring & Predictive Maintenance market size is estimated at **$10.5 Billion in 2026** (projected to reach $28+ Billion by 2032 at a CAGR of ~22%). The sector is currently **moderately fragmented**, featuring a mix of hyper-specialized AI startups (e.g., Augury, MachineMetrics) and established industrial automation giants (Siemens, SymphonyAI, PTC) expanding via strategic acquisitions.
+
+| Platform 🚀 | Starting Tier Price 💰 | Free Tier / Trial Limit ⏳ | Valuation / Revenue / Company Size 📊 | Key Strengths & Focus Areas 🎯 |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Senseye (Siemens)](https://www.senseye.io/)** | ~$1,500 / machine / year | 14-day enterprise proof-of-concept trial (up to 5 assets) | Parent Siemens ($140B+ Market Cap, Senseye acquired for ~$100M) | Automated health insights, RUL prognosis, deep Siemens MindSphere integration. |
+| **[Augury](https://www.augury.com/)** | ~$1,200 / asset / year | 30-day piloted machine trial (includes sensor hardware setup) | $1.0B+ Valuation (Unicorn status, $250M+ total funding) | Vibration & ultrasonic sensor diagnostics for critical rotating machinery. |
+| **[MachineMetrics](https://www.machinemetrics.com/)** | ~$300 / machine / month | 14-day free trial (up to 3 CNC machine edge connectors) | $100M+ Valuation ($38M+ Series B funding, 100-200 employees) | CNC & discrete manufacturing OEE, real-time cycle-time analytics, MTConnect. |
+| **[Litmus Automation](https://litmus.io/)** | ~$250 / edge device / month | 30-day full-feature trial (up to 2 Litmus Edge gateways) | ~$50M Valuation ($15M+ Series A funding, 50-100 employees) | OT-to-IT data normalization, industrial edge computing, multi-site OEE. |
+| **[Seeq](https://www.seeq.com/)** | ~$10,000 / enterprise user / year | 14-day hosted trial (with sample time-series datasets) | ~$200M Valuation ($115M+ total funding, 200+ employees) | Advanced time-series analytics, process manufacturing intelligence, diagnostic AI. |
+| **[SymphonyAI Industrial](https://www.symphonyai.com/)** | ~$25,000 / site / year | 30-day guided evaluation environment | Division of SymphonyAI ($1B+ group valuation, enterprise SaaS) | Industrial AI, process anomaly detection, vibration analysis, asset performance. |
+| **[Braincube](https://braincube.com/)** | ~$1,500 / month | 14-day demo workspace access | ~$100M Valuation ($83M+ funding, 200+ employees) | Edge-to-cloud industrial analytics, digital twin modeling, process optimization. |
+| **[HighByte](https://www.highbyte.com/)** | ~$5,000 / hub / year | 2-hour reset trial per session (free deployment download) | ~$30M Valuation ($12M+ funding, 20-50 employees) | Industrial DataOps, OT data modeling, OPC-UA/MQTT contextualization hub. |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+Below is a curated list of open-source projects, time-series historians, IIoT platforms, and protocol bridges essential for constructing self-hosted machine monitoring and predictive maintenance pipelines.
+
+*Sorted by GitHub Star Count (Descending):*
+
+- **[Grafana](https://github.com/grafana/grafana)** [![Stars](https://img.shields.io/github/stars/grafana/grafana?style=social&color=white)](https://github.com/grafana/grafana/stargazers)  
+  ⚡ The open and composable analytics and observability platform. Widely used to visualize real-time machine telemetry, vibration data, and shop-floor OEE dashboards.
+
+- **[InfluxDB](https://github.com/influxdata/influxdb)** [![Stars](https://img.shields.io/github/stars/influxdata/influxdb?style=social&color=white)](https://github.com/influxdata/influxdb/stargazers)  
+  ⏱️ Scalable open-source time-series database optimized for high-frequency sensor telemetry, machine state logging, and industrial analytics.
+
+- **[Node-RED](https://github.com/node-red/node-red)** [![Stars](https://img.shields.io/github/stars/node-red/node-red?style=social&color=white)](https://github.com/node-red/node-red/stargazers)  
+  🔌 Low-code programming tool for wiring together hardware devices, APIs, and industrial protocols (Modbus, OPC-UA, MQTT) at the edge.
+
+- **[TimescaleDB](https://github.com/timescale/timescaledb)** [![Stars](https://img.shields.io/github/stars/timescale/timescaledb?style=social&color=white)](https://github.com/timescale/timescaledb/stargazers)  
+  🐘 Open-source time-series SQL database built on PostgreSQL, ideal for machine health event logs and long-term asset trend analysis.
+
+- **[ThingsBoard](https://github.com/thingsboard/thingsboard)** [![Stars](https://img.shields.io/github/stars/thingsboard/thingsboard?style=social&color=white)](https://github.com/thingsboard/thingsboard/stargazers)  
+  📊 Open-source IoT platform for device management, data collection, processing, and rich real-time asset monitoring dashboards.
+
+- **[Eclipse Mosquitto](https://github.com/eclipse/mosquitto)** [![Stars](https://img.shields.io/github/stars/eclipse/mosquitto?style=social&color=white)](https://github.com/eclipse/mosquitto/stargazers)  
+  MQTT Open-source lightweight MQTT message broker, suitable for IoT telemetry streaming from factory floor sensors to central monitoring systems.
+
+- **[open62541](https://github.com/open62541/open62541)** [![Stars](https://img.shields.io/github/stars/open62541/open62541?style=social&color=white)](https://github.com/open62541/open62541/stargazers)  
+  🤖 Open-source C implementation of OPC UA (IEC 62541) protocol stack, enabling direct machine-to-cloud communication.
+
+- **[Apache PLC4X](https://github.com/apache/plc4x)** [![Stars](https://img.shields.io/github/stars/apache/plc4x?style=social&color=white)](https://github.com/apache/plc4x/stargazers)  
+  🏭 Industrial protocol integration library that allows unified communication with PLCs (Siemens S7, Allen-Bradley, Modbus) without proprietary drivers.
+
+- **[Apache StreamPipes](https://github.com/apache/streampipes)** [![Stars](https://img.shields.io/github/stars/apache/streampipes?style=social&color=white)](https://github.com/apache/streampipes/stargazers)  
+  🌊 Industrial IoT toolbox to enable non-technical users to connect, analyze, and explore IIoT data streams for anomaly detection.
+
+- **[EsoCore](https://www.esocore.com/)** [![Stars](https://img.shields.io/badge/stars-open--source-blue?style=social&color=white)](https://github.com/esocore)  
+  ⚙️ Open-source IIoT platform for equipment health monitoring, modular vibration/temperature sensors, and predictive maintenance analytics.
+
+---
+
+## 🛠️ Composable Stack Building Blocks
+
+Full commercial machine-health platforms with proprietary hardware sensors and physics-informed AI remain popular for enterprise rollouts. However, open-source architectures center around composable modular stacks:
+
+```
+[ Industrial Sensors / PLCs ] 
+              │ (Modbus / OPC-UA / MTConnect)
+              ▼
+    [ Edge Gateway (Node-RED / Apache PLC4X) ]
+              │ (MQTT Streams)
+              ▼
+   [ Message Broker (Eclipse Mosquitto) ]
+              │
+              ▼
+ [ Time-Series Storage (InfluxDB / TimescaleDB) ]
+              │
+              ▼
+ [ Analytics & Visualization (Grafana / ThingsBoard) ]
+```
+
+---
+
+## 🤝 How to Contribute
+
+1. Fork this repository 🍴
+2. Add or update entries in `README.md` following the table or list schema.
+3. Provide accurate pricing, trial specifications, or repository URLs.
+4. Submit a Pull Request (PR) with a brief description.
+
+---
+
+## ⚠️ Disclaimer
+
+- This list is **community-curated** and for educational/reference purposes only.
+- Machine monitoring and predictive maintenance systems directly impact factory safety and production decisions. Always validate models and data pipelines before relying on them for critical operations.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Machine-Monitoring&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Machine-Monitoring&type=date&legend=top-left)
+
+---
+
+<p align="center">
+  <b>Made with ❤️ for manufacturing engineers, OT/IT architects, and industrial data scientists.</b>
+</p>

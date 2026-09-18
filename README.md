@@ -31,6 +31,7 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 - [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
 - [🛠️ Composable Stack Building Blocks](#%EF%B8%8F-composable-stack-building-blocks)
 - [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
 - [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
 - [📈 Star History](#-star-history)
 
@@ -119,6 +120,24 @@ Full commercial machine-health platforms with proprietary hardware sensors and p
 2. Add or update entries in `README.md` following the table or list schema.
 3. Provide accurate pricing, trial specifications, or repository URLs.
 4. Submit a Pull Request (PR) with a brief description.
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you for exploring **Awesome Machine Monitoring**! ⚙️ If this repository has helped you evaluate industrial IoT platforms, design predictive maintenance workflows, or discover useful open-source tools, please consider supporting the project:
+
+- ⭐ **Star** this repository to show your support and make it more discoverable.
+- 🍴 **Fork** it to keep your own copy and contribute improvements.
+- 📢 **Share** it with fellow manufacturing engineers, OT/IT teams, and developers!
+
+<p align="left">
+  <a href="https://github.com/sponsors/ishandutta2007">
+    <img src="https://img.shields.io/badge/Sponsor%20/%20Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Sponsor / Buy Me A Coffee" />
+  </a>
+</p>
+
+Your contributions and support help maintain and expand this community resource!
 
 ---
 

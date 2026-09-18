@@ -58,7 +58,7 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 
 Below is a curated list of open-source projects, time-series historians, IIoT platforms, and protocol bridges essential for constructing self-hosted machine monitoring and predictive maintenance pipelines.
 
-*Sorted by GitHub Star Count (Descending):*
+*Sorted by GitHub Stars_Count (Descending):*
 
 - **[Grafana](https://github.com/grafana/grafana)** [![Stars](https://img.shields.io/github/stars/grafana/grafana?style=social&color=white)](https://github.com/grafana/grafana/stargazers)  
   ⚡ The open and composable analytics and observability platform. Widely used to visualize real-time machine telemetry, vibration data, and shop-floor OEE dashboards.
